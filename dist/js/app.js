@@ -7,6 +7,6 @@ const form = document.querySelector(".form");
 //     controller.adiciona()
 // })
 form.addEventListener('submit', event => {
-    event.preventDefault();
+    event.preventDefault(); // permite não carregar a pagina quando realizar o evento de submit não fazendo o refresh
     controller.adiciona();
 });
