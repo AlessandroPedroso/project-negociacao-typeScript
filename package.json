@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "lite-server --baseDir=dist",
+    "dev": "lite-server --baseDir=app",
     "start": "concurrently \"npm run watch\" \"npm run dev\"",
     "compile": "tsc",
     "watch": "tsc -w"
